@@ -26,10 +26,7 @@ const Contact: React.FC = () => {
       emailjs
         .sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
         .then(
-          (result) => {
-            setOpen(true); // Open Snackbar upon successful email send
-            form.current?.reset(); // Reset form
-          },
+          
           (error) => {
             console.log(error.text); // Log error if email send fails
           }
