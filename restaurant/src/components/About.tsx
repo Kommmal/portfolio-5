@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "/images/7358653-removebg-preview.png";
+
 import { IoArrowForward } from "react-icons/io5";
 import Image from "next/image";
 const About = () => {

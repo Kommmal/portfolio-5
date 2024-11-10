@@ -6,8 +6,8 @@ const Hero = () => {
     return (
         <div className="text-white flex w-full justify-between items-start p-10 md:p-20 ">
             <div className="md:w-2/4 md:pt-10 ">
-            <h1 className="text-xl md:text-6xl font-bold py-4">Hi, I'm <br />Komal Ayub</h1>
-                <h5 className="text-xl md:text-xl font-bold flex leading-normal tracking-tighter">I'm a <span className="text-[#465697] px-2" >
+            <h1 className="text-xl md:text-6xl font-bold py-4">Hi, I am <br />Komal Ayub</h1>
+                <h5 className="text-xl md:text-xl font-bold flex leading-normal tracking-tighter">I am a <span className="text-[#465697] px-2" >
                <TextChange />
                 </span>
                     

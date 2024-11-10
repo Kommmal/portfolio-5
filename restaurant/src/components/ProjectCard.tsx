@@ -6,7 +6,7 @@ interface ProjectCardProps {
   main: string;
   demoLink: string;
   sourceCodeLink: string;
-  image: any;
+  image: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
